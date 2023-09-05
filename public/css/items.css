@@ -19,6 +19,7 @@
   color: orange;
   border-color: orange;
 }
+
 :has(.toggle-edit.active) .todo-list label {
   pointer-events: none;
 }
