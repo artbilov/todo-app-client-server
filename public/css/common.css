@@ -135,7 +135,7 @@ input {
   gap: 15px;
 }
 
-.glass-add, .glass-edit {
+.glass, .glass-add, .glass-edit {
   position: absolute;
   inset: 0;
   backdrop-filter: blur(2px);
@@ -166,7 +166,7 @@ input {
   padding: 0;
 }
 
-.inputs{
+.inputs {
   display: flex;
   justify-content: center;
   flex-direction: row;

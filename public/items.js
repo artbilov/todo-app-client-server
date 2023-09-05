@@ -164,6 +164,6 @@ async function updateTask() {
     hideModal()
     getItems().then(showItems)
   } else {
-    console.log('Something goes wrong, ask Mihail')
+    console.log('Something goes wrong, ........')
   }
 }

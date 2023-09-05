@@ -4,7 +4,7 @@
     "listId": 1,
     "name": "chicken",
     "note": "30",
-    "done": false
+    "done": true
   },
   {
     "id": 9,
@@ -25,14 +25,7 @@
     "listId": 2,
     "name": "broccoli",
     "note": "3",
-    "done": false
-  },
-  {
-    "id": 12,
-    "listId": 2,
-    "name": "spinach",
-    "note": "3",
-    "done": false
+    "done": true
   },
   {
     "id": 13,
@@ -45,13 +38,6 @@
     "id": 14,
     "listId": 2,
     "name": "blueberries",
-    "note": "3",
-    "done": false
-  },
-  {
-    "id": 15,
-    "listId": 2,
-    "name": "salmon",
     "note": "3",
     "done": false
   },
