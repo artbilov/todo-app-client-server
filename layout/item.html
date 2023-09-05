@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal ToDo List</title>
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/items.css">
+  <script src="app.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <img src="icons/logo.svg" alt="logo">
+    <h1>Personal ToDo List</h1>
+  </header>
+
+  <nav class="nav">
+    <button onclick="location.href='index.html'">Back</button>
+    <button>Add</button>
+    <button>Edit</button>
+    <button>Delete</button>
+  </nav>
+
+  <section class="filter">
+    <label>Choose your filter:
+      <select name="" id="">
+        <option value="">Date</option>
+        <option value="">Name</option>
+        <option value="">Number</option>
+      </select>
+    </label>
+
+    <label>Sort by:
+      <select class="sort">
+        <option value="">Done first</option>
+        <option value="">ToDo first</option>
+        <option value="">The ABC..</option>
+      </select>
+    </label>
+  </section>
+
+  <section class="todo-container">
+    <ol class="todo-list">
+      <li>
+        <label >
+          <input type="checkbox">
+          Buy water 5l 4pc
+        </label>
+      </li>
+
+      <li>
+        <label>
+          <input type="checkbox">
+          Call to customer
+        </label>
+      </li>
+
+      <li>
+        <label>
+          <input type="checkbox">
+          Fill full tank of gasoline
+        </label>
+      </li>
+    </ol>
+  </section>
+</body>
+
+</html>

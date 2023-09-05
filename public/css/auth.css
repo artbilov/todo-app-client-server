@@ -1,0 +1,85 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+
+
+.tabs {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  border-radius: 10px;
+  width: 500px;
+  min-height: 400px;
+  overflow: hidden;
+}
+
+.tab-labels {
+  display: flex;
+  justify-content: center;
+}
+
+.tab-labels>:first-child {
+  border-right: 1px solid grey;
+}
+
+.tab-labels input {
+  display: none;
+}
+
+.tab-labels label {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  padding: 10px 0;
+  border-bottom: 1px solid grey;
+}
+
+label:has(:checked) {
+  background-color: #cef6ce;
+  border-bottom: 0;
+}
+
+.tab-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  background-color: #cef6ce;
+}
+
+form {
+  width: 80%;
+  padding: 10px;
+  text-align: center;
+}
+
+.tabs:has([value="reg"]:not(:checked)) #reg,
+.tabs:has([value="sign"]:not(:checked)) #sign {
+  display: none;
+
+}
+
+form input {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+form button {
+  margin: 1.5em 0;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 5px 30px;
+  background-color: lightgreen;
+}
+
+form p {
+  margin-left: 10px;
+  text-align: left;
+}

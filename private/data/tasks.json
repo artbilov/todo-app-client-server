@@ -1,0 +1,177 @@
+[
+  {
+    "id": 8,
+    "listId": 1,
+    "name": "chicken",
+    "note": "30",
+    "done": false
+  },
+  {
+    "id": 9,
+    "listId": 1,
+    "name": "pasta",
+    "note": "30",
+    "done": true
+  },
+  {
+    "id": 10,
+    "listId": 1,
+    "name": "rice",
+    "note": "3 kg",
+    "done": false
+  },
+  {
+    "id": 11,
+    "listId": 2,
+    "name": "broccoli",
+    "note": "3",
+    "done": false
+  },
+  {
+    "id": 12,
+    "listId": 2,
+    "name": "spinach",
+    "note": "3",
+    "done": false
+  },
+  {
+    "id": 13,
+    "listId": 2,
+    "name": "kale",
+    "note": "3",
+    "done": false
+  },
+  {
+    "id": 14,
+    "listId": 2,
+    "name": "blueberries",
+    "note": "3",
+    "done": false
+  },
+  {
+    "id": 15,
+    "listId": 2,
+    "name": "salmon",
+    "note": "3",
+    "done": false
+  },
+  {
+    "id": 16,
+    "listId": 2,
+    "name": "quinoa",
+    "note": "3",
+    "done": false
+  },
+  {
+    "id": 17,
+    "listId": 2,
+    "name": "almonds",
+    "note": "3",
+    "done": false
+  },
+  {
+    "id": 18,
+    "listId": 2,
+    "name": "avocado",
+    "note": "3",
+    "done": false
+  },
+  {
+    "id": 19,
+    "listId": 2,
+    "name": "sweet potato",
+    "note": "3",
+    "done": false
+  },
+  {
+    "id": 20,
+    "listId": 2,
+    "name": "turkey breast",
+    "note": "3",
+    "done": false
+  },
+  {
+    "id": 21,
+    "listId": 3,
+    "name": "kale",
+    "note": "3",
+    "done": false
+  },
+  {
+    "id": 22,
+    "listId": 3,
+    "name": "spinach",
+    "note": "3",
+    "done": false
+  },
+  {
+    "id": 23,
+    "listId": 3,
+    "name": "carrots",
+    "note": "3",
+    "done": false
+  },
+  {
+    "id": 24,
+    "listId": 3,
+    "name": "bananas",
+    "note": "3",
+    "done": false
+  },
+  {
+    "id": 25,
+    "listId": 3,
+    "name": "chicken breast",
+    "note": "3",
+    "done": false
+  },
+  {
+    "id": 26,
+    "listId": 3,
+    "name": "brown rice",
+    "note": "3",
+    "done": false
+  },
+  {
+    "id": 27,
+    "listId": 3,
+    "name": "tofu",
+    "note": "3",
+    "done": false
+  },
+  {
+    "id": 28,
+    "listId": 3,
+    "name": "apples",
+    "note": "3",
+    "done": false
+  },
+  {
+    "id": 29,
+    "listId": 3,
+    "name": "yogurt",
+    "note": "3",
+    "done": false
+  },
+  {
+    "id": 30,
+    "listId": 3,
+    "name": "sweet potato",
+    "note": "3",
+    "done": false
+  },
+  {
+    "id": 107,
+    "listId": 1,
+    "name": "r102",
+    "note": "111111",
+    "done": false
+  },
+  {
+    "id": 112,
+    "listId": 1,
+    "name": "Висiвковий хлiб без Глютену, на заквасцi (бездрiжжiвий)",
+    "note": "1шт - мне, 1 соседу, 2 Васе, 1 Пете.",
+    "done": false
+  }
+]

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabs</title>
+
+  <link rel="stylesheet" href="tabs.css">
+</head>
+
+<body>
+  <div id="tabs">
+    <div class="tab-labels">
+      <label>
+        <input type="radio" name="tab" value="sign" checked hidden>
+        <span>Sign in</span>
+      </label>
+      <label>
+        <input type="radio" name="tab" value="reg" hidden>
+        <span>register</span>
+      </label>
+    </div>
+
+    <div class="tab-contents">
+      <form action="javascript:" id="sign">
+        <label>
+          <span>Login</span>
+          <input type="text" name="login">
+        </label>
+        <label>
+          <span>Password</span>
+          <input type="password" name="password">
+        </label>
+        <button>Sign In</button>
+      </form>
+
+      <form action="javascript:" id="reg">
+        <label>
+          <span>Login</span>
+          <input type="text" name="login">
+        </label>
+        <label>
+          <span>Password</span>
+          <input type="password" name="password">
+        </label>
+        <label>
+          <span>Confirm password</span>
+          <input type="password" name="confirm">
+        </label>
+        <button>Register</button>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>

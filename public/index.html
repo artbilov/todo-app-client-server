@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal ToDo List</title>
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/home.css">
+  <script src="common.js"></script>
+  <script src="home.js" defer></script>
+</head>
+
+<body>
+  <header class="header">
+    <img src="icons/logo.svg" alt="logo">
+    <h1>Personal ToDo List</h1>
+    <button>Log out</button>
+  </header>
+
+  <nav class="nav">
+    <button class="create">Create</button>
+    <button class="edit">Edit</button>
+    <button class="delete">Delete</button>
+  </nav>
+
+  <div class="glass" hidden>
+    <form action="javascript:">
+      <p>Create new ToDo List</p>
+      <div class="new-list-inputs">
+        <div>
+          <input name="name" type="text" placeholder="Name of your new List">
+          <input name="date" type="text" placeholder="Date, when you want to do it">
+        </div>
+        <button class="btn-avatar" type="button">
+          <img src="./avatars/default_avatar.svg" alt="choose avatar">
+        </button>
+
+      </div>
+      <div class="btn-form">
+        <button class="add-list">Create</button>
+        <button class="cancel" type="button">Cancel</button>
+      </div>
+
+      <div class="avatar-picker" hidden>
+        <button>
+          <img src="avatars/animal_pet.svg" alt="animal_pet">
+        </button>
+        <button>
+          <img src="avatars/animal_wildlife.svg" alt="animal_wildlife">
+        </button>
+        <button>
+          <img src="avatars/architecture_landmark.svg" alt="architecture_landmark">
+        </button>
+        <button>
+          <img src="avatars/athlete_attack.svg" alt="athlete_attack">
+        </button>
+        <button>
+          <img src="avatars/ball_competition.svg" alt="ball_competition">
+        </button>
+        <button>
+          <img src="avatars/buddhism_religion.svg" alt="buddhism_religion">
+        </button>
+        <button>
+          <img src="avatars/building_japan.svg" alt="building_japan">
+        </button>
+        <button>
+          <img src="avatars/carp_fish.svg" alt="carp_fish">
+        </button>
+        <button>
+          <img src="avatars/cute_idol.svg" alt="cute_idol">
+        </button>
+        <button>
+          <img src="avatars/field_farm.svg" alt="field_farm">
+        </button>
+        <button>
+          <img src="avatars/fish_wind.svg" alt="fish_wind">
+        </button>
+        <button>
+          <img src="avatars/floral_sakura.svg" alt="floral_sakura">
+        </button>
+
+        <select name="avatar" hidden>
+          <option value="avatars/animal_pet.svg" selected>pet</option>
+          <option value="avatars/animal_wildlife.svg">wildlife</option>
+          <option value="avatars/architecture_landmark.svg">landmark</option>
+          <option value="avatars/athlete_attack.svg">attack</option>
+          <option value="avatars/ball_competition.svg">competition</option>
+          <option value="avatars/buddhism_religion.svg">religion</option>
+          <option value="avatars/building_japan.svg">japan</option>
+          <option value="avatars/carp_fish.svg">fish</option>
+          <option value="avatars/cute_idol.svg">idol</option>
+          <option value="avatars/field_farm.svg">farm</option>
+          <option value="avatars/fish_wind.svg">wind</option>
+          <option value="avatars/floral_sakura.svg">sakura</option>
+        </select>
+      </div>
+    </form>
+  </div>
+
+  <section class="filter">
+    <label>Choose your filter:
+      <select class="">
+        <option value="">Date</option>
+        <option value="">Name</option>
+        <option value="">Number</option>
+      </select>
+    </label>
+
+    <label>Sort by:
+      <select class="sort">
+        <option value="">Newest</option>
+        <option value="">Oldest</option>
+        <option value="">By number</option>
+        <option value="">By todo options - high</option>
+        <option value="">By todo options - low</option>
+      </select>
+    </label>
+  </section>
+
+  <section class="list-wrapper">
+    <ul class="list-group"></ul>
+  </section>
+</body>
+
+</html>

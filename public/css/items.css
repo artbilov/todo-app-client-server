@@ -1,0 +1,52 @@
+.todo-list label:has(:checked) {
+  text-decoration: line-through; 
+}
+
+.delete {
+  transition: 500ms;
+  position: absolute;
+  left: -30px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.toggle-delete.active {
+  color: red;
+  border-color: red;
+}
+
+.toggle-edit.active {
+  color: orange;
+  border-color: orange;
+}
+:has(.toggle-edit.active) .todo-list label {
+  pointer-events: none;
+}
+
+:has(.toggle-delete:not(.active)) .delete,
+:has(.toggle-edit.active) .todo-list [type="checkbox"] {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.todo-list input {
+  transform: translateY(1px);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  border: 1px solid grey;
+  border-radius: 10px;
+  width: 400px;
+  height: 200px;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  background-color: rgb(255, 255, 255);
+  gap: 15px;
+}
+

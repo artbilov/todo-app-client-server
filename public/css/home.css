@@ -1,0 +1,16 @@
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  border: 1px solid grey;
+  border-radius: 10px;
+  width: 400px;
+  height: 200px;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  background-color: rgb(255, 255, 255);
+  gap: 15px;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal ToDo List</title>
+  <link rel="stylesheet" href="./css/common.css">
+  <script src="app.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <img src="icons/logo.svg" alt="logo">
+    <h1>Personal ToDo List</h1>
+  </header>
+
+  <nav class="nav">
+    <button>Create</button>
+    <button>Edit</button>
+    <button>Delete</button>
+  </nav>
+
+  <section class="filter">
+    <label>Choose your filter:
+      <select name="" id="">
+        <option value="">Date</option>
+        <option value="">Name</option>
+        <option value="">Number</option>
+      </select>
+    </label>
+
+    <label>Sort by:
+      <select class="sort">
+        <option value="">Newest</option>
+        <option value="">Oldest</option>
+        <option value="">By number</option>
+        <option value="">By category</option>
+        <option value="">By todo options - high</option>
+        <option value="">By todo options - low</option>
+      </select>
+    </label>
+  </section>
+
+  <section class="list-wrapper">
+    <ul class="list-group">
+      <li class="todo-item">
+        <a href="items.html">
+          <h4>18.07.2023 - Some name - Category</h4>
+          <img src="#" alt="todo-avatar">
+        </a>
+      </li>
+    </ul>
+  </section>
+</body>
+
+</html>

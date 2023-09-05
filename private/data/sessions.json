@@ -1,0 +1,22 @@
+[
+  {
+    "login": "admin",
+    "token": "l29fea-j7tg45-icrfoe-lhtegt-7svt2w",
+    "expireDate": 1693685425168
+  },
+  {
+    "login": "admin",
+    "token": "w64m5q-52fr3g-1pf2zj-0shp9x-0t259u",
+    "expireDate": 1693685692874
+  },
+  {
+    "login": "admin",
+    "token": "kcpulr-v0rl41-0schgb-cjwgu1-arpzk1",
+    "expireDate": 1693686118083
+  },
+  {
+    "login": "admin",
+    "token": "qivye4-1a3maw-h99wo1-9a9jpr-5nroip",
+    "expireDate": 1695503138265
+  }
+]

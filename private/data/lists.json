@@ -1,0 +1,107 @@
+[
+  {
+    "user": "admin",
+    "lists": [
+      {
+        "id": 1,
+        "name": "Buy at ATB",
+        "date": "04.08.2023",
+        "avatar": "./avatars/animal_wildlife.svg"
+      },
+      {
+        "id": 2,
+        "name": "Buy at Auchan",
+        "date": "05.08.2023",
+        "avatar": "./avatars/animal_wildlife.svg",
+        "shared": ["vasya", "petya", "used"]
+      },
+      {
+        "id": 3,
+        "name": "Buy at Metro",
+        "date": "06.08.2023",
+        "avatar": "./avatars/animal_wildlife.svg"
+      },
+      {
+        "id": 101,
+        "name": "r102",
+        "date": "22.12.2023",
+        "avatar": "avatars/ball_competition.svg"
+      },
+      {
+        "id": 102,
+        "name": "r102",
+        "date": "22.12.2024",
+        "avatar": "avatars/carp_fish.svg"
+      }
+    ]
+  },
+  {
+    "user": "user",
+    "lists": [
+      {
+        "id": 4,
+        "name": "Buy at Perekrestok",
+        "date": "07.08.2023",
+        "avatar": "./avatars/animal_wildlife.svg"
+      },
+      {
+        "id": 5,
+        "name": "Buy at Pyaterochka",
+        "date": "08.08.2023",
+        "avatar": "./avatars/animal_wildlife.svg"
+      },
+      {
+        "id": 6,
+        "name": "Buy at Magnit",
+        "date": "09.08.2023",
+        "avatar": "./avatars/animal_wildlife.svg"
+      }
+    ]
+  },
+  {
+    "user": "vasya",
+    "lists": [
+      {
+        "id": 7,
+        "name": "Buy at Lenta",
+        "date": "10.08.2023",
+        "avatar": "./avatars/animal_wildlife.svg"
+      },
+      {
+        "id": 8,
+        "name": "Buy at Spar",
+        "date": "11.08.2023",
+        "avatar": "./avatars/animal_wildlife.svg"
+      },
+      {
+        "id": 9,
+        "name": "Buy at O'key",
+        "date": "12.08.2023",
+        "avatar": "./avatars/animal_wildlife.svg"
+      }
+    ]
+  },
+  {
+    "user": "petya@gmail.com",
+    "lists": [
+      {
+        "id": 10,
+        "name": "Buy at Lenta",
+        "date": "10.08.2023",
+        "avatar": "./avatars/animal_wildlife.svg"
+      },
+      {
+        "id": 11,
+        "name": "Buy at Spar",
+        "date": "11.08.2023",
+        "avatar": "./avatars/animal_wildlife.svg"
+      },
+      {
+        "id": 12,
+        "name": "Buy at O'key",
+        "date": "12.08.2023",
+        "avatar": "./avatars/animal_wildlife.svg"
+      }
+    ]
+  }
+]

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal ToDo List</title>
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/items.css">
+  <script src="common.js"></script>
+  <script src="items.js" defer></script>
+</head>
+
+<body>
+  <header class="header">
+    <img src="icons/logo.svg" alt="logo">
+    <h1>Personal ToDo List</h1>
+    <button>Log out</button>
+  </header>
+
+  <nav class="nav">
+    <button onclick="location.href='index.html'">Back</button>
+    <button class="add-task">Add</button>
+    <button class="toggle-edit">Edit</button>
+    <button class="toggle-delete">Delete</button>
+  </nav>
+
+  <section class="filter">
+    <label>Choose your filter:
+      <select name="" id="">
+        <option value="">Date</option>
+        <option value="">Name</option>
+        <option value="">Number</option>
+      </select>
+    </label>
+
+    <label>Sort by:
+      <select class="sort">
+        <option value="">Done first</option>
+        <option value="">ToDo first</option>
+        <option value="">The ABC..</option>
+      </select>
+    </label>
+  </section>
+
+  <section class="todo-container">
+    <ol class="todo-list">
+      <!-- <li>
+        <label >
+          <input type="checkbox">
+          Buy water 5l 4pc
+
+        </label>
+      </li> -->
+    </ol>
+  </section>
+
+  
+
+  <div class="glass-add" hidden>
+    <form action="javascript:">
+      <p class="topic">Add new ToDo Task</p>
+      <div class="inputs">
+        <div>
+          <input name="name" type="text" placeholder="Name of new Item or Task">
+          <input name="note" type="text" placeholder="Note, amount, etc">
+        </div>
+      </div>
+      <div class="btn-form">
+        <button class="add-task">Add</button>
+        <button class="cancel" type="button">Cancel</button>
+      </div>
+    </form>
+  </div>
+
+  <div class="glass-edit" hidden>
+    <form action="javascript:">
+      <p>Edit ToDo Task</p>
+      <div class="inputs">
+        <div>
+          <input name="name" type="text">
+          <input name="note" type="text">
+        </div>
+      </div>
+      <div class="btn-form">
+        <button class="edit-task">Done</button>
+        <button class="cancel" type="button">Cancel</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>

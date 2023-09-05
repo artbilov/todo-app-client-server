@@ -1,0 +1,13 @@
+GET     /api/checkauth
+POST    /api/register
+POST    /api/login
+GET     /api/logout
+GET     /api/tasklists
+POST    /api/tasklist
+GET     /api/tasks/{tasklist-id}
+POST    /api/task
+PUT     /api/task
+DELETE  /api/task
+
+
+
